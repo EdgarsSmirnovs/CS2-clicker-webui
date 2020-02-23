@@ -7,6 +7,41 @@
 </head>
 <body onload="initializeGame();">
 
+    <h2>Username: <span id = "username"></span></h2>
+    <h1>Extracted Gold: <span id = "gold"></span></h1>
+
+    <button onclick = "clickGold()">Dig Gold</button>
+    <button onclick = "buyEquipment('shovel')">Buy Showel</button>
+    <button onclick= "buyEquipment('excavator')">Buy Excavator</button>
+    <button onclick= "buyEquipment('mine')">Buy Gold Mine</button>
+
+    <!-- <table style="width:100%">
+        <tr>
+          <th>Type of Equipment</th>
+          <th>Amount</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+            <td>Showel</td>
+            <td><span id = "shovelNumberOwned"></span></td>
+            <td><span id = "shovelCost"></span></td>
+          </tr> -->
+
+    <h2>Shovel:</h2>
+    <p>Name: <span id = "shovelName"></span></p>
+    <p>Bought Shovels: <span id = "shovelNumberOwned"></span></p>
+    <p>Shovel Cost: <span id = "shovelCost"></span></p>
+
+    <h2>Excavator:</h2>
+    <p>Name: <span id = "excavatorName"></span></p>
+    <p>Bought Excavators: <span id = "excavatorNumberOwned"></span></p>
+    <p>Excavator Cost: <span id = "excavatorCost"></span></p>
+
+    <h2>Gold Mine:</h2>
+    <p>Name: <span id = "mineName"></span></p>
+    <p>Bought Gold Mines: <span id = "mineNumberOwned"></span></p>
+    <p>Gold Mine Cost: <span id = "mineCost"></span></p>
+
 
 <!-- TODO: Setup your GUI -->
 <!-- You may assume that there will be exactly 3 types of equipment with ids of "shovel", "excavator", and "mine" -->
